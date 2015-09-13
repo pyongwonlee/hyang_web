@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Hyang Cho</title>
+    
+    <meta name="description" content="Hyang's Art Projects" />
+    <meta name="keywords" content="Artist,ArtWorks,HyangCho" />
+    <meta name="author" content="HYANG CHO" />
+
+    <link rel="Stylesheet" type="text/css" href="css/StyleSheet.css" />
+
+    <script type="text/javascript" src="js/jquery.js"></script>   
+</head>
+<body>
+    <div>
+        <div class="title">
+            <a href="index.html">hyang cho</a>   
+        </div>
+        <div class="titlemenu">
+            <a href="cv.html" class="titlemenu-item">CV</a>
+            <a href="contact.html" class="titlemenu-lastitem">CONTACT</a>
+        </div>
+    </div>
+    
+    <div class="maincontent">
+        <div class="projectlist">
+            <ul class="menu">
+                <li class="menuitem"><a href="index.html" class="selected">WORKS</a></li>
+                <li>
+                    <ul class="submenu">
+                        <li><a id="clavier" href="clavier.html">WELL-TEMPERED CLAVIER</a></li>
+                        <li><a id="its" href="its.html">IT'S</a></li>
+                        <li><a id="trial3" href="trial3.html">TRIAL 3</a></li>
+                        <li><a id="trial2" href="trial2.html">TRIAL 2</a></li>
+                        <li><a id="trial1" href="trial1.html">TRIAL 1</a></li>
+                        <li><a id="mynameisnothyangcho" href="mynameisnothyangcho.html">MY NAME IS NOT HYANG CHO</a></li>
+                        <li><a id="restissilence" href="restissilence.html">THE REST IS SILENCE</a></li>
+                        <li><a id="residueethics" href="residueethics.html">RESIDUE OF WRITING ETHICS</a></li>
+                        <li><a id="hourglass" href="hourglass.html">HOURGLASS</a></li>
+                        <li><a id="linebyline2" href="linebyline2.html">LINE BY LINE 2</a></li>
+                        <li><a id="linebyline1" href="linebyline1.html">LINE BY LINE 1</a></li>
+                        <li><a id="thebooks" href="thebooks.html">BOOKS</a></li>
+                        <li><a id="frankenstein" href="frankenstein.html">FRANKENSTEIN</a></li>
+                        <li><a id="invention" href="invention.html">TWO PART INVENTIONS</a></li>
+                        <li><a id="mystery" href="mystery.html">MYSTERY AND IMAGINATION</a></li>
+                        <li><a id="knowledge" href="knowledge.html">ACCUMULATED KNOWLEDGE</a></li>
+                        <li><a id="numbers" href="numbers.html">NUMBERS</a></li>
+                        <li><a id="mirror" href="mirror.html">MIRROR, MIRROR</a></li>
+                        <li><a id="opensystem" href="opensystem.html">OPEN SYSTEM</a></li>
+                    </ul>
+                </li>
+            </ul>            
+        </div>
+        <div id="imagearea" class="workarea">
+            
+            <a href="clavier.html"><img id="clavierimg" src="images/clavier.jpg" alt="Well-Tempered Clavier" /></a>
+            <a href="its.html"><img id="itsimg" src="images/its.jpg" alt="Its" /></a>
+            <a href="trial3.html"><img id="trial3img" src="images/trial3.jpg" alt="Trial 3" /></a>
+            <br />
+
+            <a href="trial2.html"><img id="trial2img" src="images/trial2.jpg" alt="Trial 2" /></a>
+            <a href="trial1.html"><img id="trial1img" src="images/trial1.jpg" alt="Trial 1" /></a>
+            <a href="mynameisnothyangcho.html"><img id="mynameisnothyangchoimg" src="images/mynameisnothyangcho.jpg" alt="My Name is Not Hyang Cho" /></a>
+            <br />
+
+            <a href="restissilence.html"><img id="restissilenceimg" src="images/restissilence.jpg" alt="The Rest Is Silence" /></a>
+            <a href="residueethics.html"><img id="residueethicsimg" src="images/residueethics.jpg" alt="Residue of Writing Ethics" /></a>
+            <a href="hourglass.html"><img id="hourglassimg" src="images/andsooninfinity.jpg" alt="Hourglass" /></a>
+            <br />
+
+            <a href="linebyline2.html"><img id="linebyline2img" src="images/linebyline2.jpg" alt="Line by Line 2" /></a>
+            <a href="linebyline1.html"><img id="linebyline1img" src="images/linebyline1.jpg" alt="Line by Line 1" /></a>
+            <a href="thebooks.html"><img id="thebooksimg" src="images/books.jpg" alt="Books" /></a>
+            <br />
+
+            <a href="frankenstein.html"><img id="frankensteinimg" src="images/frankenstein.jpg" alt="Frankenstein" /></a>
+            <a href="invention.html"><img id="inventionimg" src="images/invention.jpg" alt="Invention" /></a>
+            <a href="mystery.html"><img id="mysteryimg" src="images/mystery.jpg" alt="Mystery" /></a>
+            <br />
+
+            <a href="knowledge.html"><img id="knowledgeimg" src="images/knowledge.jpg" alt="Knowledge" /></a>
+            <a href="numbers.html"><img id="numbersimg" src="images/numbers.jpg" alt="Numbers" /></a>
+            <a href="mirror.html"><img id="mirrorimg" src="images/mirror.jpg" alt="Mirror" /></a>
+            <br />
+
+            <a href="opensystem.html"><img id="opensystemimg" src="images/opensystem.jpg" alt="Open System" /></a>            
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".submenu > li > a").hover(
+                 function () {
+                     //$(this).css({ color: '#333' });
+                     $('#' + $(this).attr('id') + 'img').css({ 'box-shadow': '1px 1px 2px #999' });
+                 },
+                 function () {
+                     //$(this).css({ color: '#666' });
+                     $('#' + $(this).attr('id') + 'img').css({ 'box-shadow': 'none' });
+                 }
+             );
+            $(".workarea > a > img").hover(
+                function () {
+                    $('#' + $(this).attr('id').replace('img', '')).css({ color: '#333' });
+                },
+                function () {
+                    $('#' + $(this).attr('id').replace('img', '')).css({ color: '#666' });
+                }
+            );
+        });
+    </script>
+</body>
+</html>

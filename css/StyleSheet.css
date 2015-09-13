@@ -1,0 +1,227 @@
+﻿/* common */
+body {
+    margin:0 auto 0 auto;
+    width:880px;
+    font-family: Helvetica, Arial, Verdana, Sans-Serif; 
+    font-size: 14px;
+}
+
+/* Page Structure */
+.title {
+    margin-top: 48px;
+    margin-bottom: 30px;
+    text-align:left;
+    float:left;
+    font-family: Helvetica, Verdana, Arial, Sans-Serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.titlemenu {    
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align:right;
+    font-size: 12px;
+    font-family: Helvetica, Arial, Verdana, Sans-Serif;
+    font-weight: bold;
+    float:right;
+}
+.titlemenu-item {
+    padding-right: 35px;
+}
+.titlemenu-lastitem {
+    padding-right: 15px;
+}
+.titlespace {
+    padding-left:83px;
+}
+
+.menu {  
+    font-size: 14px;
+    font-family: Helvetica, Arial, Verdana, Sans-Serif;
+    font-weight: bold;
+    margin-bottom: 28px;
+}
+.submenu {
+    font-size: 12px;
+    margin-top: 14px;
+    color:#333333;
+}
+.nolinkmenu {
+    color:#666666;
+}
+
+.maincontent {    
+    line-height:1.6em;
+    float:left;
+    margin-top:30px;
+    clear:both;
+    width:880px;
+}
+
+.projectlist {
+    float:left;
+    width:240px;
+    font-size:12px;
+}
+
+.acknowledgearea {
+    margin-top:8em;
+    margin-bottom:4em;
+    text-align:center;
+    margin-left:260px;
+}
+.acknowledgearea p {    
+    font-size:11px;
+}
+.acknowledgearea img {
+    margin-top:2em;
+}
+
+.footer {
+    padding-top: 50px;
+    font-size: 11px;
+    text-align:right;
+    color:#888888;
+    clear:both;
+}
+
+/* image */
+img {
+    border-width:0px;
+    margin:0px;
+}
+
+/* links */
+a:active, a:focus {
+    outline: 0
+}
+a:link {
+    color:#666666;
+    text-decoration:none;
+}   
+a:visited {
+    color:#666666;
+    text-decoration:none;
+}
+.title > a:link {
+    color:#333333;
+    text-decoration:none;
+}   
+.title > a:visited {
+    color:#333333;
+    text-decoration:none;
+}
+a:hover {
+    color:#333333;
+    text-decoration: none;
+}
+li.menuitem {
+    margin:0px;
+    color:#333333;
+}
+
+a.selected {
+    color:#333333;
+    background-color:White;    
+}
+
+/* list */
+ul {
+    list-style-type:none;
+    padding-left:0px;
+    margin-top: 0px;
+}
+
+
+/* book  title */
+.italicize
+{
+    font-style:italic;
+}
+
+
+/* CV */
+.cvsectiontitle {
+    font-weight: bold;
+}
+.exhibitiontitle {
+    font-style:italic;
+}
+.cvarea {
+    font-size:12px;
+    margin-left:260px;
+}
+.cvsection {
+    margin-bottom:30px;
+}
+
+.cvpdf {
+    float:right; 
+    width:100px;
+    padding-right: 10px;
+}
+
+.cvyear,
+.cvyear2 {
+    float:left; width:45px;
+}
+
+.cvyear2 {
+    height:2em;
+}
+
+/* Contact */
+.contactarea {
+    font-size: 14px;
+    margin-top: 40px;
+    margin-left:260px;
+    width:605px;
+    text-align:right;
+    color:#444444;
+}
+
+/* Works */
+.workarea {
+     margin-left:260px;
+     line-height:1.2em;
+}
+
+.imagetitle {
+    float:left;
+    font-size:11px;
+    width:180px;
+    text-align:center;
+}
+
+.worktitlearea {
+    float:left;
+    font-size: 14px;
+    font-weight: bold;
+    color:#444444;
+    margin-top: 40px;
+    width:620px;
+}
+
+.workdescription {
+    float:left;
+    font-size: 12px;
+    width:620px;
+}
+.workimagearea {
+    float:left;
+    text-align:left;
+    width:620px;
+}
+.workmaterialarea {
+    float:left;
+    font-size: 12px;
+    margin-top:10px;
+    margin-bottom:30px;
+    width:620px;
+}
+
+.photocopyright {
+    margin-top:40px;
+    font-size: 12px;
+    text-align: right;
+}
