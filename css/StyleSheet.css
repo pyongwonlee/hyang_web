@@ -219,6 +219,12 @@ ul {
     width:620px;
 }
 
+.workvideoarea {
+    float: left;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
 .photocopyright {
     margin-top:40px;
     font-size: 12px;
